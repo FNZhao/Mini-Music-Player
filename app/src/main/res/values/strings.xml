@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Spotify</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="screen_loading">Screen is loading...</string>
+    <string name="album_info">%1s • %2s</string>
 </resources>
+
+    <!--一般情况下要把显示的string放在这里，因为这里的string相当于语言包，默认是英文，如果需要其他语言就会创建其他的文件作为其他语言的语言包-->
+    <!--并且当内容需要修改时只需要改这里即可-->
+    <!--如果换语言的话需要创建一个新的语言的values文件夹然后更换-->
